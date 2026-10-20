@@ -1,0 +1,28 @@
+{
+  "status": "design_only",
+  "characters": [
+    {
+      "id": "the_mentor",
+      "role": "npc",
+      "name": "The Mentor",
+      "inspiration": "Sifu's martial-arts teacher archetype",
+      "encounter": "Safe tutorial area",
+      "interaction": "Explains the adapted moves and points the player toward a training target.",
+      "implementation": "unverified",
+      "assets": "No proprietary assets bundled."
+    },
+    {
+      "id": "the_challenger",
+      "role": "boss",
+      "name": "The Challenger",
+      "inspiration": "A Sifu-inspired martial artist; not a claim to reproduce a specific canonical character",
+      "encounter": "Small test arena after tutorial",
+      "phases": [
+        "measured strikes and readable openings",
+        "faster combinations below half health"
+      ],
+      "implementation": "unverified",
+      "assets": "No proprietary assets bundled."
+    }
+  ]
+}
