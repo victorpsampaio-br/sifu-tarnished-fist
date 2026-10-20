@@ -1,0 +1,44 @@
+{
+  "status": "design_only",
+  "abilities": [
+    {
+      "id": "palm_strike",
+      "name": "Palm Strike",
+      "input": "light_attack",
+      "concept": "A quick close-range strike with modest posture pressure.",
+      "implementation": "unverified",
+      "animation_source": "SIFU installation reference only; exact animation mapping unverified",
+      "balance": {
+        "damage": "low",
+        "posture_pressure": "medium",
+        "recovery": "short"
+      }
+    },
+    {
+      "id": "sweeping_leg",
+      "name": "Sweeping Leg",
+      "input": "heavy_attack",
+      "concept": "A low sweep that briefly disrupts a humanoid target.",
+      "implementation": "unverified",
+      "animation_source": "SIFU installation reference only; exact animation mapping unverified",
+      "balance": {
+        "damage": "medium",
+        "posture_pressure": "high",
+        "recovery": "medium"
+      }
+    },
+    {
+      "id": "counter_step",
+      "name": "Counter Step",
+      "input": "guard_then_attack",
+      "concept": "A defensive step into a counterattack; should reward timing without granting invulnerability until tested.",
+      "implementation": "unverified",
+      "animation_source": "SIFU-inspired timing; host support unverified",
+      "balance": {
+        "damage": "medium",
+        "posture_pressure": "medium",
+        "recovery": "medium"
+      }
+    }
+  ]
+}
