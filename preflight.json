@@ -1,0 +1,40 @@
+{
+  "status": "blocked",
+  "checks": [
+    {
+      "id": "host_version",
+      "description": "Confirm exact ELDEN RING - Adventure Guide version and supported loader.",
+      "status": "unverified"
+    },
+    {
+      "id": "sifu_version",
+      "description": "Confirm installed SIFU version and identify permitted local references.",
+      "status": "unverified"
+    },
+    {
+      "id": "implementation_route",
+      "description": "Confirm a technically valid way to add moves, NPC, and boss to the host.",
+      "status": "unverified"
+    },
+    {
+      "id": "local_build",
+      "description": "Build the package using a documented repeatable process.",
+      "status": "blocked"
+    },
+    {
+      "id": "gameplay_test",
+      "description": "Test tutorial, moves, boss, and stability in the actual game.",
+      "status": "blocked"
+    },
+    {
+      "id": "evidence",
+      "description": "Capture genuine gameplay evidence after testing.",
+      "status": "blocked"
+    },
+    {
+      "id": "melty_validation",
+      "description": "Validate the recipe, one-click behavior, and package in Melty.",
+      "status": "blocked"
+    }
+  ]
+}
