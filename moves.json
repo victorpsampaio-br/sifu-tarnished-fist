@@ -1,0 +1,32 @@
+{
+  "status": "design_only",
+  "rules": [
+    "Use the host game's supported animation and combat hooks only after the mod route is verified.",
+    "Do not assume SIFU animation files can be loaded directly by the host.",
+    "If direct animation reuse is unsupported, document that blocker rather than claiming the move is implemented.",
+    "Keep attacks readable, interruptible where appropriate, and test damage and recovery in-game."
+  ],
+  "moves": [
+    {
+      "id": "palm_strike",
+      "source_concept": "SIFU close-range palm strike",
+      "target_behavior": "quick melee hit",
+      "host_animation": "unverified",
+      "hitbox": "unverified"
+    },
+    {
+      "id": "sweeping_leg",
+      "source_concept": "SIFU low sweep",
+      "target_behavior": "low attack with brief disruption",
+      "host_animation": "unverified",
+      "hitbox": "unverified"
+    },
+    {
+      "id": "counter_step",
+      "source_concept": "SIFU evasive counter timing",
+      "target_behavior": "guard-to-counter transition",
+      "host_animation": "unverified",
+      "input_window": "unverified"
+    }
+  ]
+}
