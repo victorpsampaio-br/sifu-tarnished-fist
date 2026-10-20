@@ -1,0 +1,35 @@
+{
+  "title": "Sifu: The Tarnished Fist",
+  "status": "design_scaffold",
+  "playable": false,
+  "tested": false,
+  "submitted_to_melty": false,
+  "mode": "solo",
+  "host_game": {
+    "name": "ELDEN RING - Adventure Guide",
+    "slug": "custom-elden-ring-adventure-guide",
+    "compatibility": "unverified"
+  },
+  "companion_game": {
+    "name": "SIFU",
+    "slug": "custom-sifu",
+    "compatibility": "unverified"
+  },
+  "v1_scope": [
+    "one unarmed ability set",
+    "one mentor NPC",
+    "one Sifu-inspired boss",
+    "one minimal test encounter"
+  ],
+  "requirements": [
+    "confirm host mod loader and supported content format",
+    "inspect installed game versions",
+    "implement host-compatible moves",
+    "validate local asset references",
+    "test in game",
+    "capture gameplay evidence",
+    "validate Melty recipe and package"
+  ],
+  "asset_policy": "Do not redistribute proprietary game assets; reference the user's own installed copies only if technically supported.",
+  "credits_verification": "The exact ELDEN RING - Adventure Guide creator/publisher credit remains unverified."
+}
