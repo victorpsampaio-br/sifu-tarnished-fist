@@ -1,0 +1,25 @@
+{
+  "status": "design_only",
+  "systems": [
+    {
+      "id": "tutorial",
+      "purpose": "Introduce the player to the unarmed moves through the mentor and a stationary training target.",
+      "implementation": "unverified"
+    },
+    {
+      "id": "boss_encounter",
+      "purpose": "A compact duel that tests strike timing, defense, and punish windows.",
+      "implementation": "unverified"
+    },
+    {
+      "id": "move_equipping",
+      "purpose": "Enable the adapted moves without permanently replacing unrelated player equipment.",
+      "implementation": "unverified"
+    },
+    {
+      "id": "local_asset_resolution",
+      "purpose": "Resolve any permitted game asset references from the player's own installed copies, never from bundled proprietary files.",
+      "implementation": "unverified"
+    }
+  ]
+}
